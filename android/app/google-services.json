@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "427362740894",
+    "project_id": "reem-66ca2",
+    "storage_bucket": "reem-66ca2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427362740894:android:55dee12854b5bc8cb0298f",
+        "android_client_info": {
+          "package_name": "com.example.firbaseproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFi7-2REiQZkwGEI_tve5ZL4Z-slRdBfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
