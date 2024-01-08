@@ -1,5 +1,8 @@
 {
     "@@locale": "ar",
     "login":" تسحيل" ,
-    "register":"التسجيل"
+    "register":"التسجيل",
+     "email": "الايميل",
+    "userName":"الاسم المستخدم",
+    "password":"الرقم السري"
 }
