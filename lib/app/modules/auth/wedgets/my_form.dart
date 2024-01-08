@@ -53,7 +53,7 @@ class _MyFormFieldsState extends State<MyFormFields> {
                 },
               ),
               SizedBox(
-                height: context.screenHeight * 0.05,
+                height: context.screenHeight * 0.03,
               ),
               MyTextFormField(
                 textEditingController: userNameController,
@@ -68,7 +68,7 @@ class _MyFormFieldsState extends State<MyFormFields> {
                 },
               ),
               SizedBox(
-                height: context.screenHeight * 0.05,
+                height: context.screenHeight * 0.03,
               ),
               MyTextFormField(
                 textEditingController: passwordController,
@@ -84,7 +84,7 @@ class _MyFormFieldsState extends State<MyFormFields> {
                 },
               ),
               SizedBox(
-                height: context.screenHeight * 0.05,
+                height: context.screenHeight * 0.03,
               )
             ],
           ),

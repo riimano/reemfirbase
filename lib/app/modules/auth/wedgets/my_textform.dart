@@ -1,3 +1,4 @@
+import 'package:firbaseproject/app/core/extensions/build_context_extension.dart';
 import 'package:flutter/material.dart';
 
 class MyTextFormField extends StatelessWidget {
@@ -26,19 +27,23 @@ class MyTextFormField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextFormField(
-      controller: textEditingController,
-      focusNode: myfocusNode,
-      textInputAction: myTextInputAction,
-      decoration: InputDecoration(
-          border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
-          label: Text(labelText),
-          prefixIcon: myprefixIcon,
-          suffix: IconButton(
-              onPressed: togglePassword, icon: suffixIcon ?? const SizedBox())),
-      obscureText: obscureText,
-      validator: validator,
-      onChanged: onChanged,
+    return SizedBox(
+      height: context.screenHeight * 0.07,
+      child: TextFormField(
+        controller: textEditingController,
+        focusNode: myfocusNode,
+        textInputAction: myTextInputAction,
+        decoration: InputDecoration(
+            border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+            label: Text(labelText),
+            prefixIcon: myprefixIcon,
+            suffix: IconButton(
+                onPressed: togglePassword,
+                icon: suffixIcon ?? const SizedBox())),
+        obscureText: obscureText,
+        validator: validator,
+        onChanged: onChanged,
+      ),
     );
   }
 }
