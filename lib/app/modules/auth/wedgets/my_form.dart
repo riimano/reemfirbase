@@ -3,16 +3,16 @@ import 'package:firbaseproject/app/modules/auth/domain/helper/auth_validators.da
 import 'package:firbaseproject/app/modules/auth/wedgets/my_textform.dart';
 import 'package:flutter/material.dart';
 
-class MyFormFields extends StatefulWidget {
-  const MyFormFields({super.key, required this.formKey});
+class MyAuthForm extends StatefulWidget {
+  const MyAuthForm({super.key, required this.formKey});
 
   final GlobalKey<FormState> formKey;
 
   @override
-  State<MyFormFields> createState() => _MyFormFieldsState();
+  State<MyAuthForm> createState() => _MyAuthFormState();
 }
 
-class _MyFormFieldsState extends State<MyFormFields> {
+class _MyAuthFormState extends State<MyAuthForm> {
   final _authValidator = AuthValidators();
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();

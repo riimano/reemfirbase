@@ -26,14 +26,14 @@ class RegisterScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              MyFormFields(formKey: formKey),
+              MyAuthForm(formKey: formKey),
               SizedBox(
                 height: context.screenHeight * 0.04,
               ),
               TextButton(
                   onPressed: () {},
                   child: Text(
-                    context.translate.googleSign,
+                    context.translate.googleLogin,
                     style: context.textTheme.bodyMedium,
                   ))
             ],

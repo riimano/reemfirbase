@@ -4,5 +4,6 @@
     "register":"register",
     "email": "Email",
     "userName":"UserName",
-    "password":"Password"
+    "password":"Password",
+    "googleLogin": "Google Login"
 }
